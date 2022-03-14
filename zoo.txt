@@ -1,0 +1,52 @@
+society is poducing digital information at an astonishing rate
+1,200 exabytes
+meaningfully
+explore
+visual representatios may also help engage more diverse audiences in exploration and analysis
+visual encodings
+spatial position leads to the most accurate decoding of numerical data
+exotic
+interactive
+Time-series
+With some forms of time-series data, raw values are less important than relative changes
+normalized
+Other forms of time-series data may be better seen in aggregate
+stacked graph
+Stacked graphs do not support negative numbers and are meaningless for data that should not be summed
+small multiples
+accurately see both overall trends and seasonal patterns
+Horizon graphs
+increasing the data density of a time-series
+exploratory data analysis
+gaining insight into how data are distributed to inform data transformation and modeling decisions
+histograms
+box-and-whisker
+stem-and-leaf plot
+minimalistic representation
+quantile-quantile (or Q-Q) plots
+obvious limitation of Q-Q plots is that their effective use requires that viewers possess some statistical know-how
+Multivariate data occurs very frequently and is notoriously hard to represent
+small multiples of scatter plots showing a set of pairwise relations among variables
+scatter plot matrix
+Parallel coordinates
+maps
+cartographic projection
+flow map
+movement of a quantiy in space and (implicitly) in time
+Choropleth Maps
+aggregated by geograhical areas
+graduated symbol map
+Cartograms
+area directly encodes a data variable
+Hierarchies
+Node-Link Diagrams
+dendrogram
+cluster
+polar rather than Crtesian coordinates has a pleasing aeshetica
+Adjacency diagrams
+space-filling variants of node-link diagrams
+Enclosure diagrams
+space-filling, using containment rather than adjacency to represent the hierarchy
+"graph" to describe a network
+arc diagram
+adjacency matrix
