@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Gráficos Exploratorios</title>
+  </head>
+  <body>
+    <h1>Trabajo Práctico: Datos Personales</h1>
+    <h2>Gráficos Exploratorios</h2>
+    <br />
+
+    <h2 class="text-center" >Flourish</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div
+            class="flourish-embed flourish-chart"
+            data-src="visualisation/9540870"
+          >
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <p class="mt-5 pt-4 text-justify">
+            Este es un gráfico bastante simple que compara mi consumo de café
+            con la cantidad de horas que dormí en el día. Una limitación de
+            Flourish con la que me crucé es que no pude poner las fechas
+            horizontales, pero si logré achicarlas e ir salteando para que quede
+            más claro el gráfico Una limitación de Flourish con la que me crucé
+            es que no pude poner las fechas horizontales, pero si logré
+            achicarlas e ir salteando para que quede más claro el gráfico
+          </p>
+        </div>
+      </div>
+    </div>
+    </br>
+
+    <h2 class="text-center">RAWGraphs</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <p class="m-2"> <strong>Horas de sueño vs consumo de café</strong></p>
+          <img src="graphs/rawgraph.png" class="w-100">
+        </div>
+        <div class="col-sm-4">
+          <p class="mt-4 pt-3 text-justify">
+            Este gráfico es de los que menos me gustan, pero la herramienta no
+            me pareció ideal para el tipo de gráfico que quería hacer. Mi idea
+            en este caso era mostrar el sueño como barras y utilizar un
+            gradiente de color para indicar cuando tomé más o menos café. Pero
+            no encontré como hacer para poner una leyenda con la descripción
+            del gradiente.
+          </p>
+        </div>
+      </div>
+    </div>
+    </br>
+
+    <h2 class="text-center">Datawrapper</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <iframe title="Consumo de Café vs minutos de sueño" aria-label="Grouped Bars" id="datawrapper-chart-yLM4d" src="https://datawrapper.dwcdn.net/yLM4d/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1955"></iframe>
+          <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+        </div>
+        <div class="col-sm-4">
+          <p class="mt-4 pt-4 text-justify">
+            En este caso se da una situación similar al primero, en el que no
+            puedo tener dos ejes con distintas escalas. Por lo tanto, opté por
+            poner la información de sueño en minutos, asi los datos son más
+            comparables. Me hubiera gustado agregar el valor de horas también
+            como un label al de minutos, pero no es posible. Por lo que opté
+            agregarlo como una barra más y ponerle label a las barras. De este
+            manera se pueden comparar magnitudes pero también apreciar los
+            resultados en un formato razonable (horas en vez de minutos).
+          </p>
+        </div>
+      </div>
+    </div>
+    </br>
+
+    <h2 class="text-center">Tableau</h2>
+    <div class="container w-75">
+    <h5> Estos gráficos ya se ponen más
+            interesantes porque no solo son un poco más claros sino que también
+            son interactivos. </h5>
+    <br/>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class='tableauPlaceholder' id='viz1650857487503' style='position: relative'><noscript><a href='#'><img alt='Horas de sueño vs consumo de café ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP1-DatosPersonales&#47;cantidaddesueoycafecontazas&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TP1-DatosPersonales&#47;cantidaddesueoycafecontazas' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP1-DatosPersonales&#47;cantidaddesueoycafecontazas&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650857487503');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div>
+        <div class="col-sm-4">
+          <p class="mt-4 text-justify">En este gráfico se puede apreciar
+            la relación entre el consumo de café y la cantidad de horas de
+            sueño, pero además se puede apreciar cuantas instancias distintas
+          de consumo de café hubo en un mismo día y que tamaño de taza</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class=tableauPlaceholder' id='viz1650857595705' style='position: relative'><noscript><a href='#'><img alt='Horas de sueño vs déficit acumulado ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;Deficitdesueo&#47;dficit&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Deficitdesueo&#47;dficit' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;Deficitdesueo&#47;dficit&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650857595705');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>'
+        </div>
+        <div class="col-sm-4">
+          <p class="mt-4 text-justify">Este gráfico es uno de mis
+            favoritos ya que muestra el déficit de sueño acumulado. Definí 7.5
+            (7hs y 30min) como el ideal de tiempo que debería estar durmiendo y
+          grafico la cantidad de sueño centrado en ese ideal. Luego el area
+          roja denota como se acumulando déficit con cada día que no dormí más
+        de 7.5hs. Por último, al pararse sobre la línea verde de sueño se puede
+        ver cuanto tiempo dormí en horas y minutos que es una medida mucho más
+      agradable que solamente horas.</p> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class='tableauPlaceholder' id='viz1650858690364' style='position: relative'><noscript><a href='#'><img alt='Calidad de sueño vs Cantidad de veces que me desperté ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;sueovsdespertar&#47;sueovsdespertar&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='sueovsdespertar&#47;sueovsdespertar' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;sueovsdespertar&#47;sueovsdespertar&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650858690364');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div>
+        <div class="col-sm-4">
+          <p class="mt-4 text-justify">En este gráfico se puede ver la
+            calidad del sueño en comparación con la cantidad de veces que me
+            desperté a la noche. Haciendo hover se puede ver el total de horas
+          de sueño en horas y minutos.</p> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class='tableauPlaceholder' id='viz1650858839347' style='position: relative'><noscript><a href='#'><img alt='Calidad de sueño vs Consumo de café ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;sueovsconsumodecafe&#47;sueovsconsumocafe&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='sueovsconsumodecafe&#47;sueovsconsumocafe' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;su&#47;sueovsconsumodecafe&#47;sueovsconsumocafe&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1650858839347');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div>
+        <div class="col-sm-4">
+          <p class="mt-4 text-justify">Este es muy parecido al anterior,
+            pero esta vez comparando el consumo neto de café con la calidad del
+            sueño.</p> 
+        </div>
+      </div>
+      </div>
+    </div>
+    </br>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
